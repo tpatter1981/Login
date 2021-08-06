@@ -1,0 +1,84 @@
+        html {
+            height: 100%;
+        }
+        
+        body {
+            height: 100%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0%;
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            background-color: rgb(179, 182, 182);
+        }
+        
+        #main-holder {
+            width: 40%;
+            height: 30%;
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            background-color: cadetblue;
+            border-radius: 5px;
+            box-shadow: 10px 10px 10px 10px rgb(124, 156, 161);
+        }
+        
+        #login-error-msg-holder {
+            width: 80%;
+            height: 75%;
+            display: flex;
+            justify-items: center;
+            align-items: center;
+        }
+        
+        #login-error-msg {
+            width: 29%;
+            text-align: center;
+            margin: 1;
+            padding: 2px;
+            font-size: large;
+            font-weight: lighter;
+            color: rgb(17, 18, 19);
+            border: 5px solid rgb(187, 189, 188);
+            opacity: 0;
+        }
+        
+        #error-msg-second-line {
+            display: block;
+        }
+        
+        #login-form {
+            align-self: flex-start;
+        }
+        
+        #login-form {
+            align-self: flex-start;
+            display: grid;
+            justify-items: center;
+            align-items: center;
+        }
+        
+        .login-form-field ::place holder {
+            color: chartreuse
+        }
+        
+        .login-form-field {
+            border: none;
+            border-bottom: 2px gray;
+            margin-bottom: 20px;
+            border-radius: 5%;
+            outline: beige;
+            padding: 0px 5px 2px 2px;
+        }
+        
+        #login-form-submit {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            color: wheat;
+            font-weight: none;
+            background-color: tomato;
+            cursor: grab;
+            outline: none;
+        }
